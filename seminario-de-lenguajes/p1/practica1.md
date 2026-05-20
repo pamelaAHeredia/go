@@ -15,10 +15,10 @@
 ## Ejercicio 2
 - Compile en el compilador Go el famoso Hello World. 
 
-Nombre del archivo fuente: hola.go
+Nombre del archivo fuente: [hola.go](https://github.com/pamelaAHeredia/go/blob/main/seminario-de-lenguajes/p1/hola.go)
 Compile y ejecute todo en un paso, y compile generando yn ejecutable con nmbre hola.exe o directamente hola. 
 
-*go run hola.go* > imprime "Hello world"
-*go build-o hola hola.go* > genera un binario llamado hola
-*./hola* > ejecuta el binario > imprime Hello World
+- *go run hola.go* > imprime "Hello world"
+- *go build-o hola hola.go* > genera un binario llamado hola
+- *./hola* > ejecuta el binario > imprime Hello World
 
