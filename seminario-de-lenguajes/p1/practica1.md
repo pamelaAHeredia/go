@@ -65,4 +65,15 @@ l9) `f float32 = e` -> Puede ser *f := e* o var *f float32 = e*
 
 - Escriba en la salida estándar la suma de los primeros números positivos pares menores o iguales a 250. Cambiar el programa para que itere en el sentido contrario pero pobtener el mismo resultado. Cambiar el programa para que, en lugaa de usar un literal como tope, se use una constrante. Si lo desea, investigue la herramienta gofmt y pruebe sobre el ćodigo. 
 
-## Ejercicio 5
+## [Ejercicio 5](https://github.com/pamelaAHeredia/go/blob/main/seminario-de-lenguajes/p1/soluciones/e5.go)
+
+- Realizar un programa que lea un número y muestre el valor correspondiente aplicando la siguiente función: 
+
+si  x pertenece al conjunto (-inf, -18), entonces devolver x
+si  x pertenece al conjunto [-18, -1], entonces devolver x mod 4
+si  x pertenece al conjunto [1, 20), entonces devolver x al cuadrado
+si  x pertenece al conmunto [20, inf), entonces devolver -x
+
+## Ejercicio 6
+
+- 
