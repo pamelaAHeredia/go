@@ -74,6 +74,23 @@ si  x pertenece al conjunto [-18, -1], entonces devolver x mod 4
 si  x pertenece al conjunto [1, 20), entonces devolver x al cuadrado
 si  x pertenece al conmunto [20, inf), entonces devolver -x
 
-## Ejercicio 6
+## [Ejercicio 6](https://github.com/pamelaAHeredia/go/blob/main/seminario-de-lenguajes/p1/soluciones/e6.go)
 
-- 
+- Escriba un programa que lea dos números desde la entrada estándar y retorne la división entre el mayor de ellos y el menor. 
+Realizar el mismo programa considerando que se leen dos enteros sin signo, luego modificarlo para que trabaje con reales. 
+Ver qué sucede con la división por cero. 
+
+## Ejercicio 7
+
+- La temperatura de los pacientes de unhispital se dividen en 3 grupos: 
+    - alta T > 37.5
+    - normal T >= 36 && T <= 37.5
+    - baja T < 36
+
+Se debe leer 10 temperaturas de pacientes y se debe informar el porcentaje de pacientes de cada grupo. 
+Luego se debe imprimir el promedio entre temperatura máxima y temperatura mínima. 
+
+- a) se puede utilizar el case para tipos reales en otros lenguajes?
+- b) Cómo se realizan las conversiones entre reales y enteros en otros lenguajes? 
+
+Objetivo: tipado fuerte, casting operaciones e/s con float.

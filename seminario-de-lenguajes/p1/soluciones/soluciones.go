@@ -13,7 +13,15 @@ func menu() {
 		var input int
 
 		fmt.Println("Lista de opciones:")
-		fmt.Println(" 1 - Hello world\n 2- Correción sintáctica\n 3- Sumar números positivos\n 4- Números enteros\n 5- Números flotantes\n 0- salir")
+		fmt.Println(` 
+		1 - Hello world 
+		2- Correción sintáctica 
+		3- Sumar números positivos 
+		4- Números enteros 
+		5- Números flotantes 
+		6- Dividir enteros
+		7- Dividir reales
+		0- salir`)
 		_, err := fmt.Scan(&input)
 
 		if err != nil {
@@ -42,6 +50,10 @@ func choose_option(opt int) {
 		process_int_numbers()
 	case 5:
 		process_float_numbers()
+	case 6:
+		divide_int()
+	case 7:
+		divide_float()
 	default:
 		fmt.Println("Número inválido")
 	}
